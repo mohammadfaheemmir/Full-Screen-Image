@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#openbtn{
+    width: 200px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    background-color: #000;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    box-shadow: 3px 3px 3px gray;
+    cursor: pointer;
+}
+
+#openbtn:hover{
+    background-color: cornsilk;
+    color: #000;
+    transition: .5s linear;
+}
+
+img{
+    height: 340px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 3px 3px 3px black;
+}
